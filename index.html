@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JCONE</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/main.css" />
+    <style>
+      .hero {
+        background: black url(images/theMasterCover.jpeg) center / cover;
+      }
+
+      .center,
+      .center-column,
+      .top,
+      .right,
+      .bottom,
+      .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .center-column {
+        flex-direction: column;
+      }
+
+      .top {
+        align-items: flex-start;
+      }
+
+      .right {
+        justify-content: flex-end;
+      }
+
+      .bottom {
+        align-items: flex-end;
+      }
+
+      .left {
+        justify-content: flex-start;
+      }
+
+      .single-spaced,
+      .single-spaced * {
+        line-height: 1;
+      }
+
+      @media (max-width: 1024px) {
+        .desktop {
+          display: none;
+        }
+      }
+
+      a:link {
+        color: black;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: black;
+        text-decoration: underline;
+      }
+
+      a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: #ffffff;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="hero is-fullheight">
+      <div class="hero-head">
+        <div class="columns is-marginless heading has-text-weight-bold">
+          <div class="column center">
+            <p class="navbar-item has-text-black" style="font-size: 16px">
+              <a href="http://www.jcone.cc:1393" target="_blank">OpenWrt</a>
+            </p>
+            <p class="navbar-item has-text-black" style="font-size: 16px">
+              <a href="http://www.jcone.cc:918" target="_blank"
+                >Synology DS918+</a
+              >
+            </p>
+
+            <p class="navbar-item has-text-black" style="font-size: 16px">
+              <a href="http://www.jcone.cc:303" target="_blank">QNAP TS-428</a>
+            </p>
+
+            <p class="navbar-item has-text-black" style="font-size: 16px">
+              <a href="http://www.jcone.cc:28085" target="_blank"
+                >qBittorrent</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer has-text-centered">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <p style="font-size: 13px">
+              <strong style="color: gray">@2022 JCONE</strong>
+            </p>
+
+            <p style="margin-top: 0">
+              <a href="http://bulma.io">
+                <img
+                  src="made-with-bulma.png"
+                  alt="Made with Bulma"
+                  width="128"
+                  height="24"
+                />
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="lib/main.js"></script>
+  </body>
+</html>
